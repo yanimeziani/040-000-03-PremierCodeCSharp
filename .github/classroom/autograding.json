@@ -1,0 +1,14 @@
+{
+    "tests": [
+      {
+        "name": "Validation du texte affiché",
+        "setup": "",
+        "run": "cd tests && ./executer.sh",
+        "input": "",
+        "output": "Bienvenue à la formation continue",
+        "comparison": "included",
+        "timeout": 1,
+        "points": null
+      }
+    ]
+  }

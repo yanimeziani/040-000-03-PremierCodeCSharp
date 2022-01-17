@@ -1,0 +1,17 @@
+    name: GitHub Classroom Workflow
+
+    on: [push]
+
+    jobs:
+      build:
+        name: Autograding
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+            name: Récupération du code
+          - uses: actions/setup-dotnet@v1
+            name: Installation de dotnet 6.0
+            with:
+               dotnet-version: '6.0.x'
+          - uses: education/autograding@v1
+            name: Exécution des tests
