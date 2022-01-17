@@ -1,7 +1,7 @@
 {
     "tests": [
       {
-        "name": "Validation du texte affiché",
+        "name": "Le texte \"Bienvenue à la formation continue\" est affiché par le programme",
         "setup": "",
         "run": "cd tests && ./executer.sh",
         "input": "",
